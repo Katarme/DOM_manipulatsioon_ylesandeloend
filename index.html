@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ülesandeloend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+<!-- Pealkiri ja alapealkiri -->
+    <h1>DOM manipulatsioon - Ülesandeloend</h1>
+    <h2>Programmeerimise alused UX23</h2>
+<!-- Lisa uus ülesanne placeholder koos nupuga -->
+    <input type="text" id="taskInput" placeholder="Lisa uus ülesanne">
+    <button id="addTaskButton">Lisa ülesanne</button>
+
+<!-- Filtreerimise nupud -->
+    <div>
+        <button id="filterAll">Kuva kõik</button>
+        <button id="filterCompleted">Kuva täidetud</button>
+        <button id="filterUncompleted">Kuva täitmata</button>
+        <button id="sortTasks">Sorteeri</button>
+    </div>
+
+<!-- Tekkiv  ülesannete nimekiri -->
+    <ul id="taskList"></ul>
+    </main>
+
+<!-- Lisab ja käivitab javascripti koodi -->
+    <script src="script.js"></script>
+</body>
+</html>
